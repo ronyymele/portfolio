@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+body {
+    padding: 0 2%;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+
+
+nav .profile{
+    display: flex;
+    align-items: center;
+}
+
+nav .profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  
+}
+
+nav .profile h1{
+   font-size: 15px;
+   margin-left: 10px;  
+}
+
+nav ul{
+ display: flex;
+ list-style-type: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+
+
+nav ul li:hover {
+border-bottom-color : #000;
+    
+}
+
+
+.page-content{
+    margin: 4%;
+    
+} 
+
+.page-content header{
+    margin: 5%;
+    max-width: 80%;
+    
+}
+
+.page-content header h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 6vw;
+}
+
+.page-content header p{
+    line-height: 30px;
+    color: gray;
+    
+}
+
+.page-content header button{
+    background: inherit;
+    border: none;
+    outline: none;
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.page-content header button:hover{
+    color: #ccc;
+    border-bottom-color: #000;    
+}
+
+
+
