@@ -94,5 +94,18 @@ border-bottom-color : #000;
     border-bottom-color: #000;    
 }
 
+.page-content .presentation-image{
+    margin-top: 5%;
+       
+}
 
+.page-content .presentation-image img {
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.5s;
+}
+
+.page-content .presentation-image img:hover {
+    filter: brightness(50%);
+}
 
